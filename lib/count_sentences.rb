@@ -14,7 +14,10 @@ class String
   
   def count_sentences
     sentence = self.split(/[.!?]/)
-    sentence.delte_if do |sentence| 
+    sentence.delte_if do |word_space|
+      word_space.empty?
+    end 
+    
   end 
   
   
