@@ -17,7 +17,7 @@ class String
     sentence.delete_if do |word_space|
       word_space.empty?
     end 
-    sentence.length 
+    sentence.count 
   end 
   
   
