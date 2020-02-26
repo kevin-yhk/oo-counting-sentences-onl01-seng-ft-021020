@@ -17,7 +17,7 @@ class String
     sentence.delte_if do |word_space|
       word_space.empty?
     end 
-    
+    sentence.length 
   end 
   
   
