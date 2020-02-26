@@ -13,6 +13,7 @@ class String
   end 
   
   def count_sentences
+    sentence = self.split
   end 
   
   
